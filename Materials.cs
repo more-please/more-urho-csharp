@@ -1,16 +1,13 @@
-﻿using Common.Utils;
+﻿using Game.Utils;
 using Urho;
 
-namespace Common
+namespace Game.Extensions
 {
-	namespace Extensions
+	public static class Materials
 	{
-		public static class Materials
+		public static void SetUniforms(this Material material, BaseUniforms uniforms)
 		{
-			public static void SetUniforms(this Material material, BaseUniforms uniforms)
-			{
-				uniforms.SetInMaterial(material);
-			}
+			uniforms.SetInMaterial(material);
 		}
 	}
 }

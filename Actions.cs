@@ -1,15 +1,12 @@
 ﻿using Urho.Actions;
 
-namespace Common
+namespace Game.Extensions
 {
-	namespace Extensions
+	public static class Actions
 	{
-		public static class Actions
+		public static FiniteTimeAction RepeatForever(this FiniteTimeAction action)
 		{
-			public static FiniteTimeAction RepeatForever(this FiniteTimeAction action)
-			{
-				return new RepeatForever(action);
-			}
+			return new RepeatForever(action);
 		}
 	}
 }

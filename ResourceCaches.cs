@@ -2,7 +2,7 @@
 using Urho;
 using Urho.Resources;
 
-namespace Common.Extensions
+namespace Game.Extensions
 {
 	public static class ResourceCaches
 	{

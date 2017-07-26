@@ -3,7 +3,7 @@ using Urho.Gui;
 using System.Diagnostics;
 using System.Text;
 
-namespace Common.Extensions
+namespace Game.Extensions
 {
 	public static class UIElements
 	{

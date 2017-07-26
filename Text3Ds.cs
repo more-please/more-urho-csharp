@@ -1,6 +1,6 @@
 ﻿using Urho.Gui;
 
-namespace Common.Extensions
+namespace Game.Extensions
 {
     public static class Text3Ds
     {

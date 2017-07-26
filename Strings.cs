@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Common.Extensions
+namespace Game.Extensions
 {
 	public static class Strings
 	{
