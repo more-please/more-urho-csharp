@@ -84,5 +84,10 @@ namespace Game.Extensions
 			result.Z = z;
 			return result;
 		}
+
+		public static Color ToUrhoColor(this Vector3 v)
+		{
+			return new Color(v.X, v.Y, v.Z);
+		}
 	}
 }
