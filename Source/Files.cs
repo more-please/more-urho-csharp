@@ -1,7 +1,7 @@
 ﻿using System;
 using Urho.IO;
 
-namespace Game.Extensions
+namespace More.Urho
 {
 	public static class Files
 	{
@@ -22,9 +22,7 @@ namespace Game.Extensions
 			byte[] data = new byte[size];
 			uint count = file.Read(data, size);
 			if (count != size)
-			{
 				throw new Exception("Files.ReadBinary failed: " + file.Name);
-			}
 			return data;
 		}
 	}
