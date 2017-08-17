@@ -4,7 +4,13 @@ namespace More.Urho
 {
     public static class Vectors
     {
-        public static Vector3 WorldToLocal(this Vector3 vector, Node node)
+		// C# has extension methods but not extension operators?? Weird!
+		public static Vector3 Multiply(this Vector3 a, Vector3 b)
+		{
+			return Vector3.Multiply(a, b);
+		}
+
+		public static Vector3 WorldToLocal(this Vector3 vector, Node node)
         {
             return node.WorldToLocal(vector);
         }
