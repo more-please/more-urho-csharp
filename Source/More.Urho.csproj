@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Urho">
-      <HintPath>..\packages\UrhoSharp.1.5.10\lib\portable-net45+win8+monoandroid+monotouch+Xamarin.iOS10\Urho.dll</HintPath>
+      <HintPath>..\..\..\packages\UrhoSharp.1.5.10\lib\portable-net45+win8+monoandroid+monotouch+Xamarin.iOS10\Urho.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
