@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Urho", "Source\More.Urho.csproj", "{64193744-FC33-4C8D-8392-DA8D744A4234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Urho", "More.Urho\More.Urho.csproj", "{64193744-FC33-4C8D-8392-DA8D744A4234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
