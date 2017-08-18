@@ -41,6 +41,7 @@
     <Compile Include="Vectors.cs" />
     <Compile Include="BaseUniforms.cs" />
     <Compile Include="MoreUrho.cs" />
+    <Compile Include="Models.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Urho">
