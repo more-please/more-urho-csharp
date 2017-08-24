@@ -42,6 +42,8 @@
     <Compile Include="BaseUniforms.cs" />
     <Compile Include="MoreUrho.cs" />
     <Compile Include="Models.cs" />
+    <Compile Include="MoreNode.cs" />
+    <Compile Include="Group.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Urho">
