@@ -90,6 +90,20 @@ namespace More.Urho
 			return new Vector3(v.X, v.Y, z);
 		}
 
+		public static IntVector2 WithX(this IntVector2 v, int x)
+		{
+			IntVector2 result = v;
+			result.X = x;
+			return result;
+		}
+
+		public static IntVector2 WithY(this IntVector2 v, int y)
+		{
+			IntVector2 result = v;
+			result.Y = y;
+			return result;
+		}
+
 		public static Color ToUrhoColor(this Vector3 v)
 		{
 			return new Color(v.X, v.Y, v.Z);
